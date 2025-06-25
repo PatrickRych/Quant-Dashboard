@@ -1,31 +1,37 @@
 # Quant-Dashboard
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+![Dashboard](https://github.com/user-attachments/assets/d1dcfb61-dbbd-479f-b1b8-97cb3c867b2f)
 
-### Skills Learned
-[Bullet Points - Remove this afterwards]
+This dashboard is a real-time, multi-factor monitoring system built to track sector momentum, volatility, and volume-adjusted flows across major U.S. equity sectors, bond proxies, and macro assets.
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+### Core Components & Features
+🔹 Volume Analytics
+- VWAP Z-Scores and Volume % Change track how current flows compare to historic activity.
+- Volume spikes aligned with price weakness can indicate distribution, while volume surges on strength suggest accumulation.
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
+🔹 Momentum Signal Cluster
+- MACD, EMA, CMF (Chaikin Money Flow) used to measure trend strength and liquidity.
+- CMF 7d and 30d breakdowns visually show  is favouring the average buyer  in or out over time.
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+🔹 Return & Return Z-Score Analysis
+- Tracks absolute and standardized returns over multiple horizons: 1d, 7d, 14d, and 30d.
+- Z-scores contextualize whether current returns are stretched or mean-reverting relative to recent history.
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+🔹 Realized Volatility Panel
+- Tracks RVOL (1m/6m) and their ratios, highlighting volatility compression or expansion phases.
+- The 1m/6m RVOL Z-score flags assets with abnormal realized volatility gaps — critical for vol targeting or mean-reversion setups.
 
-Every screenshot should have some text explaining what the screenshot is about.
+### How It’s Used
+**Tactical Trade Scanning**
+- Identify oversold/overbought conditions using return and volume Z-scores.
+- Confirm trend strength with momentum overlays.
 
-Example below.
+**Sector Rotation & Risk Flow**
+- Compare how sectors are performing on a normalized basis, not just raw returns.
+- Quickly detect where money is flowing in/out via volume anomalies and CMF divergence.
 
-*Ref 1: Network Diagram*
+**Volatility Regime Awareness**
+- A sharp jump in short-term realized volatility vs. long-term is often a precursor to trend inflection.
+- Helps calibrate position sizing, especially in mean-reversion vs breakout environments.
