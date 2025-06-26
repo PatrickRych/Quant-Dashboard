@@ -42,5 +42,6 @@ This dashboard is used after a deep anaylsis, including: Equity Factor Model, re
 
 ## Project Archive 
 
-**<a href="https://github.com/PatrickRych/Portfolio-Manager">Project Archive </a>**
+| <a href="https://github.com/PatrickRych/Project/edit/main/README.md">LandingPage </a>
+| <a href="https://github.com/PatrickRych/Portfolio-Manager">Project Archive </a>
 ****
