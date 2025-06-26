@@ -25,6 +25,8 @@ This dashboard is a real-time, multi-factor monitoring system built to track sec
 
 ## How It’s Used
 
+This dashboard is used after a deep anaylsis, including: Equity Factor Model, regression, etc., Then I look for actionable insights which have been backtested. 
+
 🔹 Tactical Trade Scanning
 - Identify oversold/overbought conditions using return and volume Z-scores.
 - Confirm trend strength with momentum overlays.
